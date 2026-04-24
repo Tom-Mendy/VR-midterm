@@ -10,7 +10,7 @@ public class ActualTime : MonoBehaviour
         timeText = GetComponent<TMP_Text>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         int totalSeconds = Mathf.FloorToInt(Time.time);
         int minutes = totalSeconds / 60;
