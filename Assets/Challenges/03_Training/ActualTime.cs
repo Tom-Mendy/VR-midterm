@@ -16,6 +16,6 @@ public class ActualTime : MonoBehaviour
         int minutes = totalSeconds / 60;
         int seconds = totalSeconds % 60;
 
-        timeText.text = $"{minutes:00}:{seconds:00}";
+        timeText.text = $"Time: {minutes:00}:{seconds:00}";
     }
 }
